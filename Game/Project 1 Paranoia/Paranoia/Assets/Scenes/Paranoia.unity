@@ -1448,9 +1448,9 @@ MonoBehaviour:
   questionIndex: 0
   questionIndexSecondary: 0
   answerParent: {fileID: 2029581315}
-  anim: {fileID: 0}
   optionOneIsCorrect: 0
   optionTwoIsCorrect: 0
+  anim: {fileID: 820233279}
 --- !u!4 &1450950104
 Transform:
   m_ObjectHideFlags: 0

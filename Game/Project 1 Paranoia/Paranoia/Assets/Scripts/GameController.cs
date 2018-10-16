@@ -40,6 +40,7 @@ public class GameController : MonoBehaviour {
     public bool optionOneIsCorrect;
     public bool optionTwoIsCorrect;
 
+    public Animator anim;
 
 	void Start () {
 
@@ -195,6 +196,7 @@ public class GameController : MonoBehaviour {
 
     IEnumerator delayTimer()
     {
+        anim.SetBool("ShowPhoto", true);
         yield return new WaitForSeconds(2f);
         Debug.Log("waithing finished");
         //play More animation
